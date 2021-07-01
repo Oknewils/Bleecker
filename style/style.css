@@ -389,6 +389,111 @@ body{
     height: 120px;
     width: 230px;
   }
+  .one{
+    background-image: url(../img/carbide-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .one p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .one svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .two{
+    background-image: url(../img/metal-cutting-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .two p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .two svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .three{
+    background-image: url(../img/abrasive-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .three p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .three svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .four{
+    background-image: url(../img/diamond-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ .four p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .four svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .five{
+    background-image: url(../img/measuring-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right; 
+ }
+ .five p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .five svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .six{
+    background-image: url(../img/locksmith-tool.jpg);
+    background-repeat: no-repeat;
+    background-position: right;    
+ }
+ .six p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .six svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .seven{
+    background-image: url(../img/rigging-and-fixtures.jpg);
+    background-repeat: no-repeat;
+    background-position: right; 
+ }
+ .seven p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .seven svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
+  .eight{
+    background-image: url(../img/power-tool.jpg);
+    background-repeat: no-repeat;
+     
+    background-position: bottom;
+}
+.eight p{
+    margin-top: 20px;
+    margin-left: 15px;
+  } 
+  .eight svg{
+    margin-top: 14.22px;
+    margin-left: 24px;
+  } 
   .product-card p{
     font-family: Open Sans;
     font-size: 16px;
@@ -396,9 +501,8 @@ body{
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: left;    
     color: #040F0F;
- 
   }
   .product-card{
     display: flex;
