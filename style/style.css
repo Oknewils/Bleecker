@@ -338,7 +338,7 @@ body{
       overflow: hidden; 
       border-radius: 3px;
   }
-  .btn-main{
+  .btn-main a{
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
