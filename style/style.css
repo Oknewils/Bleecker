@@ -54,9 +54,9 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-/* body{
-    /* overflow-x:  hidden;
-} */
+body{
+   overflow-x:  hidden;
+} 
 .container {
     max-width: 1110px;
     margin-left: auto;
@@ -514,6 +514,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   }
    .link {
       margin-top: 30px; 
+      margin-right: 10px;
       margin-left: auto;
   } 
   .link a{
@@ -605,7 +606,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-top: 222px;
     margin-left: 20px;
     }
- /* .tool-steels{
+ .tool-steels{
     background-image: url(../img/instrumental-hundred.jpg);
     background-repeat: no-repeat;
     height: 320px;
@@ -631,7 +632,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    } */
+    }
  .date-and-svg{
      display: flex;
  }
@@ -659,7 +660,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-bottom: 3.33px;
 }
 
-.main-bottom {
+.main-bottom .container{
     display: flex;
     justify-content: space-between;
 }
@@ -670,9 +671,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .news{
     margin-top: 129px;
-    margin-right: 0px;
-    margin-left: 115px;
-    
 }
 .news .btn-row{
     flex-direction: row;
@@ -710,18 +708,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     text-align: left;
     color: #FFFFFF;
 }
-.footer-left{
-    background-color: #007398;
-    height: 300px;
-    width: 925px
-    ;
-}
-.footer-right{
-    background-color: #0081AA;
-    height: 300px;
-    width: 515px;
-}
 .footer{
+    background: linear-gradient(to right, #007398 65%, #0081AA 35%);
+    height: 300px;
+    max-width: 100%;
+}
+.footer .container{
     display: flex;
 }
 .company-instrument{
@@ -738,7 +730,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-top: 66px;
     margin-right: 77px;
     margin-bottom: 36px;
-    margin-left: 100px;
     height: 18px;
     width: 306px;
 }
@@ -755,7 +746,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .rights{
     margin-right: 87px;
     margin-bottom: 162px;
-    margin-left: 100px;
     width: 296px;
     height: 18px;
 }
@@ -799,7 +789,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .useful-title{
     margin-top: 50px;
-    margin-right: 83px;
+    margin-right: 170px;
     margin-bottom: 20px;
 }
 .useful-li{
@@ -832,7 +822,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-top: 50px;
     margin-right: 83px;
     margin-bottom: 10px;
-    margin-left: 60px;
 }
 .checkout{
     font-family: Open Sans;
@@ -847,7 +836,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .checkout{
     margin-bottom: 23px;
-    margin-left: 60px;
 }
 .contacts-mail{
     font-family: Open Sans;
@@ -861,7 +849,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .contacts-mail{
     margin-bottom: 10px;
-    margin-left: 60px;
 }
 .other-tel{
     font-family: Open Sans;
@@ -875,7 +862,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .other-tel{
     margin-bottom: 10px;
-    margin-left: 60px;
 }
 .footer-right .contacts{
     display: flex;
