@@ -140,6 +140,7 @@ body{
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top: 5px solid #FFFFFF;
+    cursor: pointer;
 }
 .triangle-bottom{
     margin-top: auto;
@@ -575,6 +576,7 @@ body{
   }
   .selection-abrasive-material{
       background-image: url(../img/selection-of-abrasive-material.jpg);
+      cursor: pointer;
       height: 320px;
       width: 350px;
   }
@@ -592,6 +594,7 @@ body{
   }
   .hard-alloys{
     background-image: url(../img/carbide-alloys.jpg);
+    cursor: pointer;
     height: 320px;
     width: 350px;
 }
@@ -610,6 +613,7 @@ body{
  .tool-steels{
     background-image: url(../img/instrumental-hundred.jpg);
     background-repeat: no-repeat;
+    cursor: pointer;
     height: 320px;
     width: 350px;
     } 
@@ -766,7 +770,7 @@ body{
     margin-bottom: 20px;
     
 }
-.information-li{
+.information-li a{
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
@@ -793,7 +797,7 @@ body{
     margin-right: 170px;
     margin-bottom: 20px;
 }
-.useful-li{
+.useful-li a{
     font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
@@ -824,7 +828,7 @@ body{
     margin-right: 83px;
     margin-bottom: 10px;
 }
-.checkout{
+.checkout a{
     font-family: Open Sans;
     font-size: 12px;
     font-style: normal;
