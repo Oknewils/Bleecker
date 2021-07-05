@@ -149,6 +149,7 @@ body{
 }
   .header-catalog-area {
       background-color: #FFFFFF;
+      cursor: pointer;
       height: 40px;
       width: 303px;
   }
@@ -191,6 +192,7 @@ body{
   }
   .header-search{
       background-color: #FFFFFF;
+      cursor: pointer;
       height: 40px;
       width: 682px;
   }
